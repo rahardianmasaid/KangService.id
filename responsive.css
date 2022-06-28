@@ -1,0 +1,404 @@
+@media screen and (max-width:320px) {}
+
+@media screen and (max-width:575.9px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        /* padding-bottom: 3.5rem; */
+        padding: 5rem 0;
+    }
+
+    .jumbotron-h3 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .jumbotron-h3-2 {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+
+    .jumbotron-p {
+        font-size: 1.4rem !important;
+        font-weight: 300 !important;
+        /* text-align: justify; */
+    }
+
+    .btn-service-1 {
+        font-weight: 600;
+        color: var(--firstColor);
+        width: 9rem !important;
+        height: 3rem !important;
+        /* margin-left: 1rem; */
+    }
+
+    .btn-service-2 {
+        font-size: 2rem !important;
+        font-weight: 600;
+        color: var(--fifthColor);
+        width: 9rem !important;
+        height: 3rem;
+        /* margin-top: 1rem; */
+    }
+
+    .btn-font {
+        font-size: 0.8rem !important;
+    }
+
+    /* Akhir Jumbotron */
+
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 3rem 0;
+    }
+
+    .konten-1-paragraf {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* .konten-1-paragraf{
+        padding: 0 2rem;
+    } */
+
+    .card {
+        width: 18rem !important;
+    }
+
+    .card-body h5 {
+        margin-top: -1.5rem;
+    }
+
+    .card-konten-penawaran svg {
+        width: 3rem;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 3rem 0 0;
+    }
+
+    .konten-2 svg {
+        margin-top: -2rem;
+    }
+
+    .konten-2 p {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    /* Akhir Konten 2 */
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:767.9px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 4rem 0 !important;
+    }
+
+    .jumbotron-h3 {
+        font-size: 4.5rem;
+    }
+
+    .btn-service-1 {
+        font-weight: 600;
+        color: var(--firstColor);
+        width: 9rem !important;
+        height: 3rem;
+    }
+
+    .btn-service-2 {
+        font-weight: 600;
+        color: var(--fifthColor);
+        width: 9rem !important;
+        height: 3rem;
+    }
+
+    .btn-font {
+        font-size: 0.8rem !important;
+    }
+
+    /* Akhir Jumbotron */
+
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 4rem 0;
+    }
+
+    .konten-1 svg {
+        margin-top: 1rem;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 4rem 0 0;
+    }
+
+    .konten-2 svg {
+        margin-top: -2rem;
+    }
+
+    /* Akhir Konten 2 */
+}
+
+@media screen and (min-width:768px) and (max-width:991.9px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 4rem 0;
+    }
+
+    .jumbotron-h3 {
+        font-size: 5rem;
+    }
+
+    /* Akhir Jumbotron */
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 4rem 0;
+    }
+
+    .konten-1 svg {
+        margin-top: 1rem;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 4rem 0 2rem 0;
+    }
+
+    .konten-2 svg {
+        margin-top: -2rem;
+    }
+
+    /* Akhir Konten 2 */
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199.9px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 7rem;
+        margin-top: 4rem;
+    }
+
+    .jumbotron-margin-text {
+        margin-top: 2rem !important;
+    }
+
+    .jumbotron svg {
+        margin-top: -2rem;
+    }
+
+    .jumbotron-h3 {
+        font-size: 4rem;
+    }
+
+    /* Akhir Jumbotron */
+
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 4rem 0;
+    }
+
+    .konten-1-paragraf {
+        width: 70%;
+        margin: auto;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 4rem 0 0rem;
+    }
+
+    .konten-2 svg {
+        margin-top: -2rem !important;
+    }
+
+    /* Akhir Konten 2 */
+}
+
+/* @media screen and (min-width: 992px) {
+    .nav-daftar:hover {
+        color: var(--sixthColor) !important;
+    }
+
+    .nav-daftar:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid var(--sixthColor);
+        width: 50%;
+        margin: auto;
+        margin-bottom: -3px;
+    }
+
+    .nav-login:hover {
+        color: var(--firstColor);
+        background-color: var(--sixthColor);
+        box-shadow: 0 0 5px var(--sixthColor);
+    }
+
+    .jumbotron {
+        margin-bottom: 11rem !important;
+    }
+
+    .konten-penawaran {
+        margin-top: 200px;
+    }
+
+    .card-konten-penawaran {
+        margin-bottom: 20px !important;
+    }
+
+    .konten-1 {
+        padding: 7.5rem 0;
+    }
+
+    .konten-2 {
+        padding: 7.5rem 0;
+    }
+
+
+} */
+
+@media screen and (min-width: 1200px) and (max-width:1399.9px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 6rem;
+    }
+
+    .jumbotron-p {
+        font-size: 1.5rem !important;
+    }
+
+    .jumbotron-margin-text {
+        margin-top: 6.5rem !important;
+    }
+
+    .jumbotron-h3 {
+        font-size: 4.5rem;
+    }
+
+    .jumbotron svg {
+        margin-top: 3rem;
+    }
+
+    /* Akhir Jumbotron */
+
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 4rem 0;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 4rem 0 0;
+    }
+
+    .konten-2 svg {
+        margin-top: -2rem !important;
+    }
+
+    /* Akhir Konten 2 */
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 14rem 0;
+    }
+
+    .jumbotron-margin-text {
+        margin-top: 4rem !important;
+    }
+
+    .jumbotron-h3 {
+        font-size: 6rem;
+    }
+
+    .jumbotron-h3-2 {
+        font-size: 3rem;
+    }
+
+    .btn-service {
+        margin-top: 2rem;
+    }
+
+    .btn-service-1 {
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .btn-service-2 {
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .btn-font {
+        font-size: 1.2rem !important;
+    }
+
+    /* Akhir Jumbotron */
+
+    /* Konten 1 */
+    .konten-1 {
+        padding: 4rem;
+    }
+
+    .konten-1 h3 {
+        font-size: 3rem !important;
+    }
+
+    .konten-1-paragraf {
+        font-size: 1.2rem !important;
+    }
+
+    /* Akhir Konten 1 */
+
+
+    /* Konten 2 */
+    .konten-2 {
+        padding: 4rem 0 1rem;
+    }
+
+    .konten-2 h3 {
+        font-size: 3rem !important;
+    }
+
+    .konten-2 p {
+        font-size: 1.2rem !important;
+    }
+
+    /* Akhir Konten 2 */
+}
