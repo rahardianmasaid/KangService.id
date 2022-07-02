@@ -5,7 +5,7 @@
     /* Jumbotron */
     .jumbotron {
         /* padding-bottom: 3.5rem; */
-        padding: 5rem 0;
+        padding: 6rem 0;
     }
 
     .jumbotron-h3 {
@@ -240,6 +240,14 @@
     }
 
     /* Akhir Konten 2 */
+
+
+    /* Konten 3 */
+    .konten-3 iframe {
+        height: 21.3rem !important;
+    }
+
+    /* Akhir Konten 3 */
 }
 
 /* @media screen and (min-width: 992px) {
@@ -321,7 +329,7 @@
 
     /* Konten 2 */
     .konten-2 {
-        padding: 4rem 0 0;
+        padding: 4rem 0;
     }
 
     .konten-2 svg {
@@ -330,6 +338,13 @@
 
     /* Akhir Konten 2 */
 
+
+    /* Konten 3 */
+    .konten-3 iframe {
+        height: 25.6rem !important;
+    }
+
+    /* Akhir Konten 3 */
 }
 
 @media screen and (min-width: 1400px) {
@@ -401,4 +416,13 @@
     }
 
     /* Akhir Konten 2 */
+
+
+    /* Konten 3 */
+    .konten-3 iframe {
+        height: 29.6rem !important;
+    }
+
+    /* Akhir Konten 3 */
+
 }
